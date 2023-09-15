@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Not Responsive 💩</title>
+    <link rel="stylesheet" href="not-responsive.css" />
+    <style>
+      h1 {
+        font-size: 1.75rem;
+        color: burlywood;
+        margin: auto;
+        text-align: center;
+      }
+
+      .container {
+        display: flex;
+        padding: 2rem;
+      }
+
+      .component {
+        border: 1px solid burlywood;
+        margin: 16px;
+      }
+
+      .title {
+        font-size: 1.5rem;
+        padding: 0.667em;
+        background-color: burlywood;
+      }
+
+      .contents {
+        font-size: 18px;
+        padding: 16px;
+      }
+
+      @media screen and (max-width: 768px) {
+        .container {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Dream Coding</h1>
+    <div class="container">
+      <section class="component">
+        <header class="title">Master Front-end ✨</header>
+        <p class="contents">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente
+          veniam, nulla porro distinctio aliquid, quos quidem odio consectetur
+          aperiam, delectus cum. Deserunt facilis excepturi similique natus
+          minus deleniti rem sit?
+        </p>
+      </section>
+      <section class="component">
+        <header class="title">Career Growth 🚀</header>
+        <p class="contents">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente
+          veniam, nulla porro distinctio aliquid, quos quidem odio consectetur
+          aperiam, delectus cum. Deserunt facilis excepturi similique natus
+          minus deleniti rem sit?
+        </p>
+      </section>
+    </div>
+  </body>
+</html>
